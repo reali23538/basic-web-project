@@ -4,5 +4,13 @@ spring:
       prefix: /WEB-INF/views/
       suffix: .jsp
       
+  datasource:
+    url: jdbc:mysql://database-1.cxd2js07zgsk.ap-northeast-2.rds.amazonaws.com:3306/basic?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: admin
+    password: wls0415&
+
+  jpa:
+    show-sql: true
+      
 server:
   port: 80
