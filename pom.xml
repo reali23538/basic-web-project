@@ -17,6 +17,9 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	
+	<!-- branch1 -->
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
