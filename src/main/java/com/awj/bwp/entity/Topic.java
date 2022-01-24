@@ -24,7 +24,7 @@ public class Topic {
 	@Column
 	private Date created;
 	
-//	public Topic () {};
+	public Topic () {};
 //	
 	@Builder
 	public Topic (String title, String description, String author) {
