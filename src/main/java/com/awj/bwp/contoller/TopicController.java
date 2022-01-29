@@ -1,5 +1,6 @@
 package com.awj.bwp.contoller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +20,15 @@ public class TopicController {
 	
 	@GetMapping(value="/topics")
 	public ResponseEntity<List<Topic>> getTopics() { 
-//		Topic t = Topic.builder()
-//			.title("제목1")
-//			.description("설명1")
-//			.author("작성자1")
-//			.build();
+		Topic t = Topic.builder()
+			.title("제목1")
+			.description("설명1")
+			.author("작성자1")
+			.build();
+		List<Topic> topics = new ArrayList<>();
+		topics.add(t);
 		
-		List<Topic> topics = topicService.findAll(); 
+//		List<Topic> topics = topicService.findAll();
 		return new ResponseEntity<List<Topic>>(topics, HttpStatus.OK); 
 	}
 
