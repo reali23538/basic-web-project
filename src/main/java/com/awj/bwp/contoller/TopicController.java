@@ -22,8 +22,8 @@ public class TopicController {
 	public ResponseEntity<List<Topic>> getTopics() { 
 		Topic t = Topic.builder()
 			.title("제목4")
-			.description("설명3")
-			.author("작성자3")
+			.description("설명4")
+			.author("작성자4")
 			.build();
 		List<Topic> topics = new ArrayList<>();
 		topics.add(t);
