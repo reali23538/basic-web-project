@@ -21,9 +21,9 @@ public class TopicController {
 	@GetMapping(value="/topics")
 	public ResponseEntity<List<Topic>> getTopics() { 
 		Topic t = Topic.builder()
-			.title("제목4")
-			.description("설명4")
-			.author("작성자4")
+			.title("제목5")
+			.description("설명")
+			.author("작성자")
 			.build();
 		List<Topic> topics = new ArrayList<>();
 		topics.add(t);
