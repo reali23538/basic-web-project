@@ -22,7 +22,7 @@ public class TopicController {
 	public ResponseEntity<List<Topic>> getTopics() { 
 		Topic t = Topic.builder()
 			.title("제목6")
-			.description("설명")
+			.description("설명 master")
 			.author("작성자")
 			.build();
 		List<Topic> topics = new ArrayList<>();
