@@ -5,6 +5,7 @@ master3
 master4
 master5
 master6
+conflict_master
 branch1
 branch2
 branch33
