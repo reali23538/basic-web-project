@@ -11,8 +11,8 @@
 	<groupId>com.awj.bwp</groupId>
 	<artifactId>basic-web-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-<!--	<packaging>war</packaging>-->
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
+<!--	<packaging>jar</packaging>-->
 	<name>basic-web-project</name>
 	<description>basic web project</description>
 	<properties>
